@@ -62,7 +62,71 @@ Select the following option:
 > Terminal: Create New Terminal
 ```
 
-### 
+### 3. Create Java Project with Gradle
+
+Execute the following commands to create and move project directories.
+
+```shell
+vscode ➜ /workspace $ mkdir sample
+vscode ➜ /workspace $ cd sample/
+vscode ➜ /workspace/sample $ gradle init
+```
+
+Default choinces are fine. In the following case, I selected **application** type project. Otherwise, source directories are note created by Gradle.
+
+```shell
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 2
+
+Select implementation language:
+  1: C++
+  2: Groovy
+  3: Java
+  4: Kotlin
+  5: Scala
+  6: Swift
+Enter selection (default: Java) [1..6] 
+
+Generate multiple subprojects for application? (default: no) [yes, no] 
+Select build script DSL:
+  1: Kotlin
+  2: Groovy
+Enter selection (default: Kotlin) [1..2] 
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4]
+
+Project name (default: sample): 
+Enter target version of Java (min. 7) (default: 21): 
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no] 
+```
+
+```shell
+vscode ➜ /workspace/sample $ tree app
+app
+├── build.gradle.kts
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── org
+    │   │       └── example
+    │   │           └── App.java
+    │   └── resources
+    └── test
+        ├── java
+        │   └── org
+        │       └── example
+        │           └── AppTest.java
+        └── resources
+```
 
 ## Installation
 
