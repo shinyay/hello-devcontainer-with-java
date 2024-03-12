@@ -2,6 +2,8 @@
 
 This project configures for **Java** development environment on **Dev Containers**.
 
+![image](https://github.com/shinyay/hello-devcontainer-with-java/assets/3072734/d3eb12e4-deb5-4c59-ab58-b2253b616f18)
+
 ## Description
 
 ## Demo
