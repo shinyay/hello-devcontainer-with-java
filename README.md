@@ -6,6 +6,18 @@ This project configures for **Java** development environment on **Dev Containers
 
 ## Description
 
+### 0. Notice
+
+You can choose `OpenJDK` or `Microsoft Build of OpenJDK` on `devcontainer.json`
+
+```yaml
+// "dockerComposeFile": "compose.yaml",
+// "dockerComposeFile": "compose.open.yaml",
+```
+
+- `compose.yaml`: **OpenJDK**
+- `compose.open.yaml` : **Microsoft Build of OpenJDK**
+
 ### 1. Open / Rebuild Dev Container
 
 ```shell
@@ -26,6 +38,12 @@ Select the following menu:
 - feature:2
 
 ## Requirement
+
+
+
+My environment:
+
+- WSL2 on Windows 11
 
 ## Usage
 
