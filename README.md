@@ -6,6 +6,27 @@ This project configures for **Java** development environment on **Dev Containers
 
 ## Description
 
+## Demo
+
+## Features
+
+- Java 21
+- Gradle
+- Kotlin
+- Ki
+
+## Requirement
+
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [Docker](https://www.docker.com/)
+
+My environment:
+
+- WSL2 on Windows 11
+
+## Usage
+
+
 ### 0. Notice
 
 You can choose `OpenJDK` or `Microsoft Build of OpenJDK` on `devcontainer.json`
@@ -29,26 +50,6 @@ Select the following menu:
 ```text
 > Dev Containers: Rebuild and Reopen in Container
 ```
-
-## Demo
-
-## Features
-
-- Java 21
-- Gradle
-- Kotlin
-- Ki
-
-## Requirement
-
-- [Visual Studio Code](https://code.visualstudio.com/Download)
-- [Docker](https://www.docker.com/)
-
-My environment:
-
-- WSL2 on Windows 11
-
-## Usage
 
 ## Installation
 
