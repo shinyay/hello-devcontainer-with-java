@@ -2,7 +2,8 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
 	"name": "Playground - Java",
-	"dockerComposeFile": "compose.yaml",
+	// "dockerComposeFile": "compose.yaml",
+	"dockerComposeFile": "compose.open.yaml",
 	"service": "playground-java",
 	"workspaceFolder": "/workspace",
 	"remoteUser": "vscode",
