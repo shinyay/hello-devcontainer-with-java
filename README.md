@@ -1,6 +1,6 @@
 # Hello Dev Containers with Java
 
-Overview
+This project configures for **Java** development environment on **Dev Containers**.
 
 ## Description
 
