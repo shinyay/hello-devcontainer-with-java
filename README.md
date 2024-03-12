@@ -6,6 +6,18 @@ This project configures for **Java** development environment on **Dev Containers
 
 ## Description
 
+### 1. Open / Rebuild Dev Container
+
+```shell
+Ctrl + p
+```
+
+Select the following menu:
+
+```text
+> Dev Containers: Rebuild and Reopen in Container
+```
+
 ## Demo
 
 ## Features
