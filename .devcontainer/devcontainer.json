@@ -5,7 +5,7 @@
 	"dockerComposeFile": "compose.yaml",
 	"service": "playground-java",
 	"workspaceFolder": "/workspace",
-	"remoteUser": "shinyay",
+	// "remoteUser": "shinyay",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
