@@ -5,10 +5,6 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-      # args:
-      #   USERNAME: $USERNAME_
-      #   UID: $UID
-      #   GID: $GID
     restart: always
     working_dir: '/workspace'
     tty: true
