@@ -24,6 +24,7 @@ This project configures for **Java** development environment on **Dev Containers
 - [Create a Dev Container](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
 - [Development Containers](https://containers.dev/)
   - [devcontainer.json reference](https://containers.dev/implementors/json_reference/)
+  - [Development Container Specification](https://containers.dev/implementors/spec/)
 
 - [Dev Containers: Getting Started](https://microsoft.github.io/code-with-engineering-playbook/developer-experience/devcontainers/)
 
