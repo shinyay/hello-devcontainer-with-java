@@ -26,7 +26,6 @@ My environment:
 
 ## Usage
 
-
 ### 0. Notice
 
 You can choose `OpenJDK` or `Microsoft Build of OpenJDK` on `devcontainer.json`
@@ -45,11 +44,25 @@ You can choose `OpenJDK` or `Microsoft Build of OpenJDK` on `devcontainer.json`
 Ctrl + p
 ```
 
-Select the following menu:
+Select the following option:
 
 ```text
 > Dev Containers: Rebuild and Reopen in Container
 ```
+
+### 2. Open terminal view
+
+```shell
+Ctrl + p
+```
+
+Select the following option:
+
+```text
+> Terminal: Create New Terminal
+```
+
+### 
 
 ## Installation
 
