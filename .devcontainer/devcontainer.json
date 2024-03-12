@@ -21,6 +21,13 @@
 			"jdkVersion": "latest",
 			"jdkDistro": "open"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
