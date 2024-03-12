@@ -34,8 +34,10 @@ Select the following menu:
 
 ## Features
 
-- feature:1
-- feature:2
+- Java 21
+- Gradle
+- Kotlin
+- Ki
 
 ## Requirement
 
