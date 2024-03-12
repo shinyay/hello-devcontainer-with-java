@@ -1,0 +1,18 @@
+services:
+  playground-java:
+    container_name: 'playground-java'
+    hostname: 'java'
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USERNAME: $USERNAME_
+        UID: $UID
+        GID: $GID
+    restart: always
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - type: bind
+        source: ../workspace
+        target: /workspace
