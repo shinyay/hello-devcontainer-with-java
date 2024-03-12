@@ -4,6 +4,7 @@
 	"name": "Playground - Java",
 	"dockerComposeFile": "compose.yaml",
 	"service": "playground-java",
+	"workspaceFolder": "/workspace",
 	"remoteUser": "shinyay",
 
 	"features": {
