@@ -4,6 +4,7 @@
 	"name": "Playground - Java",
 	"dockerComposeFile": "compose.yaml",
 	"service": "playground-java",
+	"remoteUser": "shinyay",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
@@ -26,7 +27,16 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker"
-			]
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				"workbench.colorCustomizations": {
+					"titleBar.activeBackground": "#19549C",
+					"titleBar.activeForeground": "#ffffff",
+					"activityBar.background": "#02A7E3",
+					"activityBar.foreground": "#ffffff"					
+				}				
+			}
 		}
 	}
 
