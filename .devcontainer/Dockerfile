@@ -3,13 +3,28 @@ FROM mcr.microsoft.com/devcontainers/java:1-21-bullseye
 # ARG USERNAME=shinyay
 # ARG USER_UID=1001
 # ARG USER_GID=${USER_UID}
+# RUN apt-get update \
+#     && groupadd --gid 1010 shinyay \
+#     && useradd -s /bin/bash --uid 1010 --gid 101 -m shinyay \
+#     && echo "shinyay ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/shinyay\
+#     && chmod 0440 /etc/sudoers.d/shinyay
+# ARG UID
+# ARG GID
 
+
+# RUN apt -y update \
+#     && apt -y install sudo
+# RUN groupmod --gid $GID shinyay \
+#     && usermod --uid $UID --gid $GID shinyay \
+#     && chown -R $UID:$GID /home/shinyay
+
+# USER $USERNAME
 # RUN apt-get update \
 #     && groupadd --gid ${USER_UID} ${USERNAME} \
 #     && useradd -s /bin/bash --uid $USER_UID --gid ${USER_GID} -m ${USERNAME}
-#     # && apt-get install -y sudo \
-#     # && echo ${USERNAME} ALL=\(\root\) NOPASSWD:ALL > /etc/sudoers.d/${USERNAME} \
-#     # && chmod 0440 /etc/sodoers.d/${USERNAME}
+    # && apt-get install -y sudo \
+    # && echo ${USERNAME} ALL=\(\root\) NOPASSWD:ALL > /etc/sudoers.d/${USERNAME} \
+    # && chmod 0440 /etc/sodoers.d/${USERNAME}
 
-# USER shinyay
+USER vscode
 WORKDIR /workspace
