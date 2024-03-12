@@ -128,6 +128,12 @@ app
         └── resources
 ```
 
+### 4. Create `.gitignore` file
+
+```shell
+curl -L http://www.gitignore.io/api/java,kotlin,gradle,maven,macos,linux,visualstudiocode --output gitignore
+```
+
 ## Installation
 
 ## References
